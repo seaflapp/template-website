@@ -11,7 +11,7 @@ section.hero {
 
 section.hero div.hero-text {
   display: grid;
-  gap: 16px;
+  gap: 0px;
 }
 
 section.hero h1 {
@@ -20,7 +20,7 @@ section.hero h1 {
 }
 
 section.hero div.hero-text p {
-  font-size: 1, 5rem;
+  font-size: 1,5rem;
 }
 
 section.hero button {
