@@ -1,0 +1,38 @@
+header {
+  background-color: rgb(144, 133, 245);
+  height: 32px;
+  padding-inline: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header figure {
+  height: 80px;
+}
+
+header figure img {
+  height: 100%;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+}
+
+header nav a {
+  color: rgb(253, 251, 251);
+  text-decoration: none;
+  border: 2px solid rgb(253, 251, 251);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 2px 2px 3px black;
+}
+
+header nav a:hover {
+  scale: 120%;
+}
+
+header nav a:active {
+  scale: 90%;
+}

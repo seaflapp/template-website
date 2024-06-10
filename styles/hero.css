@@ -1,0 +1,32 @@
+section.hero {
+  min-height: calc(100dvh - 80px);
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+section.hero div.hero-text {
+  display: grid;
+  gap: 16px;
+}
+
+section.hero h1 {
+  font-size: 4,5rem;
+  color: rgb(144, 133, 245);
+}
+
+section.hero div.hero-text p {
+  font-size: 1, 5rem;
+}
+
+section.hero button {
+  background-color: rgb(144, 133, 245);
+  border: 2px solid rgb(253, 251, 251);
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 2px 2px 3px black;
+}
