@@ -1,6 +1,6 @@
 header {
   background-color: rgb(144, 133, 245);
-  height: 32px;
+  height: 80px;
   padding-inline: 64px;
   display: flex;
   justify-content: space-between;
@@ -17,15 +17,16 @@ header figure img {
 
 header nav {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 header nav a {
+    background-color: rgb(77, 75, 189);
   color: rgb(253, 251, 251);
   text-decoration: none;
   border: 2px solid rgb(253, 251, 251);
   border-radius: 8px;
-  padding: 4px;
+  padding: 6px;
   box-shadow: 2px 2px 3px black;
 }
 

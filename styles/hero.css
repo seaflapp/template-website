@@ -6,7 +6,7 @@ section.hero {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 16px;
+  gap: 36px;
 }
 
 section.hero div.hero-text {
