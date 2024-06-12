@@ -1,0 +1,12 @@
+button.standard-button {
+    background-color: rgb(144, 133, 245);
+    border: 2px solid rgb(253, 251, 251);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 3px black;
+  }
+
+  button.standard-button a {
+    color: rgb(253, 253, 255);
+    text-decoration: none;
+  }

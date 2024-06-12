@@ -1,0 +1,21 @@
+section.about {
+   
+}
+
+section.about h2 {
+    margin-bottom: 16px;
+}
+
+section.about figure {
+    height: 300px;
+}
+
+section.about figure img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+section.about p {
+    padding: 8px;
+    text-align: start;
+}

@@ -28,6 +28,7 @@ header nav a {
   border-radius: 8px;
   padding: 6px;
   box-shadow: 2px 2px 3px black;
+  transition: 0,3s ease;
 }
 
 header nav a:hover {
