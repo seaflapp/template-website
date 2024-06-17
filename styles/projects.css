@@ -1,44 +1,40 @@
 section.projects {
-    flex-direction: column;
-    gap: 24px;
+  flex-direction: column;
+  gap: 24px;
 }
 
 section.projects div.projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 section.projects div.projects-card {
-width: 300px;
-display: grid;
-gap: 16px;
-background-color: #4e516e;
-padding: 16px;
+  width: 300px;
+  display: grid;
+  gap: 16px;
+  background-color: #4e516e;
+  padding: 16px;
 }
 
 section.projects div.projects-card h3 {
-
 }
 
 section.projects div.projects-card figure {
-max-width: 300px;
+  max-width: 300px;
 }
 
 section.projects div.projects-card figure img {
-width: 100%;
+  width: 100%;
 }
 
 section.projects div.projects-card p {
-
 }
 
 section.projects div.projects-card button {
-
 }
 
 section.projects div.projects-card button a {
-
 }

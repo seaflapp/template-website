@@ -21,14 +21,14 @@ header nav {
 }
 
 header nav a {
-    background-color: rgb(77, 75, 189);
+  background-color: rgb(77, 75, 189);
   color: rgb(253, 251, 251);
   text-decoration: none;
   border: 2px solid rgb(253, 251, 251);
   border-radius: 8px;
   padding: 6px;
   box-shadow: 2px 2px 3px black;
-  transition: 0,3s ease;
+  transition: 0, 3s ease;
 }
 
 header nav a:hover {

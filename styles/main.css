@@ -3,6 +3,7 @@
 @import "./about.css";
 @import "./projects.css";
 @import "./buttons.css";
+@import "./footer.css";
 
 * {
   padding: 0;
@@ -21,17 +22,19 @@ body {
 main {
   padding-inline: 64px;
   display: grid;
-  gap: 64px;
+  /* gap: 64px; */
   /* margin: 64px 0; */
 }
 
 /* styler alle seksjoner på siden */
 
 section {
+  margin-inline: 64px;
+  margin-top: 64px;
   /* border: 2px solid black; */
   display: flex;
   align-items: center;
-  padding: 40px;
+  /* padding: 40px; */
   background-color: rgb(53, 54, 63);
   border-radius: 16px;
 }
