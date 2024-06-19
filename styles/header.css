@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(144, 133, 245);
+  background-color: var(--primary);
   height: 80px;
   padding-inline: 64px;
   display: flex;
@@ -21,13 +21,13 @@ header nav {
 }
 
 header nav a {
-  background-color: rgb(77, 75, 189);
-  color: rgb(253, 251, 251);
+  background-color: var(--quertiery);
+  color: var(--white);
   text-decoration: none;
-  border: 2px solid rgb(253, 251, 251);
+  border: 2px solid var(--white);
   border-radius: 8px;
   padding: 6px;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px var(--balck);
   transition: 0, 3s ease;
 }
 

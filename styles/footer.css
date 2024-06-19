@@ -1,5 +1,5 @@
 footer {
-  background-color: rgb(144, 133, 245);
+  background-color: var(--primary);
   height: 160px;
   padding-inline: 64px;
   display: flex;
@@ -16,14 +16,14 @@ footer div.contact-info p {
 }
 
 footer div.contact-info a {
-  color: hsl(240, 21%, 91%);
+  color: var(--white);
 }
 
 footer nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  color: hsl(208, 75%, 89%);
+  color: var(--white);
 }
 
 footer nav a {
