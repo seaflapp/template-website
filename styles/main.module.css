@@ -14,18 +14,34 @@
 }
 
 :root {
-  /* --primary:hsl(246, 85%, 74%) ;
-  --secandary:hsl(234, 9%, 23%) ;
-  --tertiery: ;
-  --quertiery: ;
-  --accent: ;
+/* hoved farge set */
+  /* --primary: #0F8CFA;
+  --secandary:#0662B2;
+  --tertiery:#033663 ;
+  --quertiery:#4BA9FB ;
+  --accent:#5FB3FC ;
+  
+  --black:#000B14;
+  --white:#EBF5FF;
+  --darkGrey:#2C2F31 ;
+  --grey:#384149 ;
+  --text:#c2fcbb; */
 
-  --black:hsl(0, 0%, 9%) ;
-  --white:hsl(250, 7%, 84%) ;
-  --darkGrey: ;
-  --grey: ; */
+/* test farge set */
+  --primary:#1ACB1A;
+  --secandary:#13AE13;
+  --tertiery:#3ADA3A;
+  --quertiery:#0B900B;
+  --accent:#7EC774;
 
-  --primary: #0F8CFA;
+  --black:#063D00;
+  --white:#d2f1d2;
+  --darkGrey:#DFFCDF;
+  --grey:#000000;
+  --text:#c2fcbb;
+
+/* test farge set */
+  /* --primary: #0F8CFA;
   --secandary:#0662B2;
   --tertiery:#033663 ;
   --quertiery:#4BA9FB ;
@@ -34,17 +50,17 @@
   --black:#000B14;
   --white:#EBF5FF;
   --darkGrey:#2C2F31 ;
-  --grey:#384149 ;
+  --grey:#384149 ; */
 }
 
 body {
-  color: var(--white);
+  color: var(--grey);
   background-color: var(--black);
   overflow-x: hidden;
 }
 
 main {
-  padding-inline: 64px;
+  /* padding-inline: 64px; */
   display: grid;
   /* gap: 64px; */
   /* margin: 64px 0; */
@@ -58,11 +74,11 @@ section {
   /* border: 2px solid black; */
   display: flex;
   align-items: center;
-  /* padding: 40px; */
-  background-color: var(--tertiery);
+  padding: 40px;
+  background-color: var(--secandary);
   border-radius: 16px;
 }
 
-section :last-of-type {
-  margin-bottom: 8px;
+section:last-of-type {
+  margin-bottom: 160px;
 }

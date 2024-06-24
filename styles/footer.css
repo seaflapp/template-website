@@ -16,14 +16,14 @@ footer div.contact-info p {
 }
 
 footer div.contact-info a {
-  color: var(--white);
+  color: var(--text);
 }
 
 footer nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  color: var(--white);
+  color: var(--text);
 }
 
 footer nav a {

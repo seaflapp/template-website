@@ -15,11 +15,12 @@ section.projects div.projects-card {
   width: 300px;
   display: grid;
   gap: 16px;
-  background-color: var(--secandary);
+  background-color: var(--tertiery);
   padding: 16px;
 }
 
 section.projects div.projects-card h3 {
+  color: var(--grey);
 }
 
 section.projects div.projects-card figure {
@@ -31,6 +32,7 @@ section.projects div.projects-card figure img {
 }
 
 section.projects div.projects-card p {
+  color: var(--grey);
 }
 
 section.projects div.projects-card button {

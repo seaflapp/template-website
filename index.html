@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>website template</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/main.module.css" />
     <script type="module" src="./js/main.js"></script>
   </head>
 
@@ -15,9 +15,9 @@
       </figure>
 
       <nav>
-        <a target="_blank" href="https://www.vg.no/">VG</a>
-        <a target="_blank" href="https://www.finn.no/">FINN</a>
-        <a target="_blank" href="https://www.youtube.com/">YOUTUBE</a>
+        <a href="#about">about</a>
+        <a href="#projects">Project</a>
+        <a href="#contacts">contacts</a>
       </nav>
     </header>
 
@@ -34,19 +34,19 @@
         </button>
       </section>
 
-      <section class="about ">
-        <div>
-          <h2>About section title text</h2>
-          <figure>
-            <img src="./public/logo.jpg" alt="" />
-          </figure>
-        </div>
+      <section id="about" class="about ">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi
           doloremque placeat ipsum est natus eius quaerat dignissimos veritatis
           culpa quia, tempora voluptatum voluptas doloribus, quidem in fugiat!
           Repellendus, ab.
         </p>
+          <div>
+            <h2>About section title text</h2>
+            <figure>
+              <img src="./public/logo.jpg" alt="" />
+            </figure>
+          </div>
       </section>
 
       <section id="projects" class="projects ">
@@ -59,47 +59,50 @@
               <img src="./public/logo.jpg" alt="" />
             </figure>
             <p>
-              test som forteller kort om mprojektet, teksten burde være sånn
-              passe lengde, ca sånn som det er skrevet hher
+              test som forteller kort om projektet, teksten burde være sånn
+              passe lengde, ca sånn som det er skrevet her
             </p>
             <button class="standard-button">
               <a target="_blank" href="">check out</a>
             </button>
           </div>
+
           <div class="projects-card">
             <h3>my github page</h3>
             <figure>
               <img src="./public/logo.jpg" alt="" />
             </figure>
             <p>
-              test som forteller kort om mprojektet, teksten burde være sånn
-              passe lengde, ca sånn som det er skrevet hher
+              test som forteller kort om projektet, teksten burde være sånn
+              passe lengde, ca sånn som det er skrevet her
             </p>
             <button class="standard-button">
               <a target="_blank" href="">check out</a>
             </button>
           </div>
+
           <div class="projects-card">
             <h3>my github page</h3>
             <figure>
               <img src="./public/logo.jpg" alt="" />
             </figure>
             <p>
-              test som forteller kort om mprojektet, teksten burde være sånn
-              passe lengde, ca sånn som det er skrevet hher
+              test som forteller kort om projektet, teksten burde være sånn
+              passe lengde, ca sånn som det er skrevet her
             </p>
             <button class="standard-button">
               <a target="_blank" href="">check out</a>
             </button>
           </div>
+
           <div class="projects-card">
             <h3>my github page</h3>
             <figure>
               <img src="./public/logo.jpg" alt="" />
             </figure>
             <p>
-              test som forteller kort om mprojektet, teksten burde være sånn
-              passe lengde, ca sånn som det er skrevet hher
+              test som forteller kort om projektet, teksten burde være sånn
+              passe lengde, ca sånn som det er skrevet her
             </p>
             <button class="standard-button">
               <a target="_blank" href="">check out</a>
@@ -109,22 +112,21 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contacts">
       <div class="contact-info">
         <p>Telefon:</p>
         <p>Adresse:</p>
         <p>
           Email:
           <a href="mailto:martin.digitaletalenter@gmail.com"
-            >martin.digitaletalenter@gmail.com</a
-          >
+            >martin.digitaletalenter@gmail.com</a>
         </p>
       </div>
 
       <nav>
-        <a href="https://www.vg.no/">VG</a>
-        <a href="https://www.finn.no/">FINN</a>
-        <a href="https://www.youtube.com/">YOUTUBE</a>
+        <a href="#about">about</a>
+        <a href="#projects">Project</a>
+        <a href="#contacts">contacts</a>
       </nav>
     </footer>
   </body>
